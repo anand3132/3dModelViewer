@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camera" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACgAAgAAAAiAAAQAAAAACAAAgCgAEAAAAAQIAQABA=</HashCode>
+      <FileName>source\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mainScene" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAICAAQAAAAEAgAQAAAAAQAAABgAIAAQAAAAAUAAA=</HashCode>
+      <FileName>source\mainScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="matrix4x4f" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAIAAAAAAAAgAIAAAgAAYSAAEBkAICAiAgAABABIA=</HashCode>
+      <FileName>source\matrix4x4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="object3d" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="transformf" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.191" />
+        <Point X="1.25" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>source\object3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point3f" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>source\OBJReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point3i" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAABgAQAAAAA=</HashCode>
+      <FileName>source\OBJReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjTriangle" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBCAAAAAAAA=</HashCode>
+      <FileName>source\OBJReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Material" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAQAAAEAAAICAQAAAAAAAIAAAAgAAAAAAABAAA=</HashCode>
+      <FileName>source\OBJReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OBJObject" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQACCAAAAACAAAAAAAAAAAAAEBAAIIAAAAAAAAgA=</HashCode>
+      <FileName>source\OBJReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OBJReader" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAABAAIAAAEAAAIAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>source\OBJReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pxMath" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAEAAAAAAgAAAAAAAAAABAAABAAAUAA=</HashCode>
+      <FileName>source\pxMath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="transformf" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAAAAAAICAAAAAAAACEIAAAKAAEBAIAAAAAAA=</HashCode>
+      <FileName>source\transformf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vector3&lt;T&gt;" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAAAIAAQAAAAAEQJAAAAAAAAAIAAAABgAQAAAAA=</HashCode>
+      <FileName>source\vector3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshObj" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAABAAACAAAAAAEAABAAIEAAAAAACAAAAAAAA=</HashCode>
+      <FileName>source\MeshObj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshGrp" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>source\MeshObj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshLoader" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAIAABAAAAAAAACAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>source\MeshObj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="byte" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcndr.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vector3f" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>source\vector3.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="vector3i" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>source\vector3.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
